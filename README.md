@@ -3,7 +3,7 @@
 Web based ssh container based from treehouses alpine image. About webssh more can be view [here](https://pypi.org/project/webssh/).
 ## Installations:
 ```bash
-git clone [https://github.com/ajanpinyo/web-ssh.git]
+git clone https://github.com/ajanpinyo/web-ssh.git
 cd webssh
 docker build -t ajanpinyo/web-ssh .
 ```
