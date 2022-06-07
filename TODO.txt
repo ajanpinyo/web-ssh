@@ -1,5 +1,3 @@
-git clone https://github.com/ole-vi/webssh.git
-
 [web-ssh]
 docker build -t ajanpinyo/web-ssh .
 docker run --name web-ssh --restart always -p 8022:8022 -d ajanpinyo/web-ssh
