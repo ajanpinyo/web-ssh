@@ -29,7 +29,7 @@ for i in ${@:2}
 do
     sha=$(get_manifest_sha $repo $i)        #$1 ajanpinyo/alpine:latest  amd64|arm|arm64
     echo $sha
-    base_image="ajan;pinyo/alpine@$sha"
+    base_image="ajanpinyo/alpine@$sha"
     echo $base_image
     arch=$i   # arm arm64 amd64
 
