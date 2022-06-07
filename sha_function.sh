@@ -74,10 +74,10 @@ compare (){
 }
 
 create_manifest (){
-    local repo=$1           #treehouses/webssh
+    local repo=$1           #ajanpinyo/web-ssh
     local tag_latest=$2     #latest
     local tag_time=$3       #timetag
-    local tag_arm=$4        #treehouses/webssh-tags:arm
+    local tag_arm=$4        #ajanpinyo/web-ssh-tags:arm
     local tag_arm64=$5
     local tag_x86=$6
     docker manifest create   $repo:$tag_latest $tag_arm $tag_x86 $tag_arm64
